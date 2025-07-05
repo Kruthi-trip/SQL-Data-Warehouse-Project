@@ -16,7 +16,6 @@ WHERE cst_key != TRIM(cst_key);
 
 
 -- Data Standardization & Consistency
-SELECT DISTINCT 
-    cst_marital_status 
-FROM silver.crm_cust_info;
+SELECT DISTINCT cst_marital_status 
+FROM bronze.crm_cust_info;
 
